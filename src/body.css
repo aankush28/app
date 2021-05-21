@@ -1,0 +1,61 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 400px; /* Same as the width of the sidenav */
+    text-align: center;
+    color: rgba(73, 73, 73, 0.596);
+    font-size: larger;
+  }
+  hr{
+      color: rgba(66, 66, 66, 0.363);
+      
+      padding: 0;
+      margin: 0;margin-left: 20%;
+  }
+  .span{
+      color: black;
+      margin-left: 5%;
+      
+     font-size: 12px;
+  }
+  .ok:hover{
+      background-color: rgba(61, 60, 60, 0.116);
+  }
+  .ing{
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    border-radius: 100%;
+  }
+  .profile1st:hover{
+    color: aqua;
+  }
+  .body_Active{
+    background-color: rgba(0, 0, 0, 0.089);
+    outline:  rgba(0, 0, 0, 0.089);
+    border-right: 110px solid  rgba(0, 0, 0, 0.007);
+  }
